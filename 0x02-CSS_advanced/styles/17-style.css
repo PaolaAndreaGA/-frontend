@@ -107,7 +107,7 @@ a:active {
 }
 
 .section-body {
-  padding: var(--);
+  padding: var(--section-body-padding);
 }
 
 .section-footer {
