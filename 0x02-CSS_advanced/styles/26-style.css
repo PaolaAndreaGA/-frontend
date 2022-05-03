@@ -156,6 +156,8 @@ a:active {
   text-decoration: none;
 }
 
+
+
 .card-testimonial {
   text-align: center;
 }
@@ -168,7 +170,7 @@ a:active {
 
 .card-testimonial .card-quote cite {
   display: block;
-  padding-top: 10rem;
+  padding-top: 1rem;
   color: var(--color-primary);
 }
 
