@@ -119,7 +119,7 @@ a:active {
   text-transform: var(--section-tagline-transform);
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
-
+  margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -158,11 +158,7 @@ a:active {
 padding: var(--footer-padding);
 }
 
-ul.row {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
+
 
 .col-1-3 {
   width: 33.33%;
