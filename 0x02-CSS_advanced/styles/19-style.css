@@ -176,8 +176,10 @@ ul.row {
   padding: 0.5rem;
 }
 
-
-
-ul.footer {
-  text-align: right;
+.footer-copyright {
+  margin: none;
+  font-size: var(--font-size-small);
+  color: var(--text-color);
 }
+
+
