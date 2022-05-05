@@ -404,10 +404,6 @@ ul.row {
   width: calc((100% / 2) - 2rem);
 }
 
-@media (max-width: 767px) {
-  .ul.row row {
-      flex-direction: column;
-  }
 
   [class^='col-'] {
       margin: 0, 3rem, 0, 0;
@@ -468,11 +464,7 @@ ul.row {
   width: 100%;
 }
 
-@media(max-width:767px) {
-  .navbar-menu {
-      display: none;
-  }
-}
+
 
 /* Header
     ============================= */
@@ -609,11 +601,6 @@ ul.row {
 /* Section Latest news
     ============================= */
 
-@media(max-width: 767px) {
-  .section-latest-news .row {
-      flex-direction: column;
-  }
-}
 
 .section-latest-news .row {
   flex-direction: row-reverse;
@@ -785,7 +772,7 @@ ul.row {
 .hero-article .section-inner {
   text-align: center;
   align-items: center;
-  min-height: 40vh;
+  min-height: 35vh;
 }
 
 .hero-article .section-body {
